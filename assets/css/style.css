@@ -1,3 +1,42 @@
-h1 {
-    color:red
+.html,
+body {
+    height: 100%;
+    margin: 0;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.main {
+    flex: 1;
+}
+
+.footer {
+    background-color: #f8f9fa;
+    color: #000;
+    text-align: center;
+    padding: 1rem 0;
+    position: relative;
+    width: 100%;
+}
+
+.hero {
+    background-image: url('../images/hero.avif');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    color: white;
+    text-align: center;
+}
+
+.hero-content {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 5px;
 }
