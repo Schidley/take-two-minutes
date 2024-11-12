@@ -3,7 +3,6 @@ A mental health aweness project
 
 Take2minutes is my first project developed as part of the Code Institute Full Stack Developer programme. I will utilise HTML5, CSS3 and Bootstrap to fulfil all of the learning outcomes expected. 
 
-Purpose of the Website: Short Breaks for Mental Health
 In today's fast-paced world, it's all too easy to get caught up in the demands of work, school, and everyday life. As a result, we often neglect the importance of taking regular breaks to recharge our minds and bodies. The purpose of this website is to promote the practice of taking short breaks and to highlight the mental health benefits associated with this simple yet powerful habit.
 
 Mental Health Benefits of Short Breaks
