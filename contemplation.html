@@ -2,71 +2,79 @@
 <html lang="en">
 
 <head>
-    <!--Bootstrap styles from CDN-->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="/assets/images/treecon.png" type="image/x-icon">
-    <title>A short break</title>
+  <!--Bootstrap styles from CDN-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="/assets/images/treecon.png" type="image/x-icon">
+  <!--Custom page styling to darken the background just here-->
+  <style>
+ 
+  </style>
+  <title>A short break</title>
 </head>
 
 <body class="hero">
-    <nav class="navbar navbar-expand-lg navbar-light bg-light"> <a class="navbar-brand" href="#"></a> <button
-            class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"> <span
-                class="navbar-toggler-icon"></span> </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ms-auto">
-                <li class="nav-item active"> <a class="nav-link" href="index.html">Home </a> </li>
-                <li class="nav-item"> <a class="nav-link" href="about.html">About</a> </li>
-                <li class="nav-item"> <a class="nav-link" href="contemplation.html">Contemplation <span
-                            class="sr-only">(current)</span></a> </li>
+  
+  
+  <nav class="navbar navbar-expand-lg navbar-light bg-light"> <a class="navbar-brand" href="#"></a> <button
+      class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav"
+      aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item active"> <a class="nav-link" href="index.html">Home </a> </li>
+        <li class="nav-item"> <a class="nav-link" href="about.html">About</a> </li>
+        <li class="nav-item"> <a class="nav-link" href="contemplation.html">Contemplation <span
+              class="sr-only">(current)</span></a> </li>
 
-            </ul>
-        </div>
-    </nav>
-    <header class="hero">
-        <div class="hero-content">
-            <h1>Time to reflect...</h1>
-            <p>contemplation page</p>
-        </div>
-    </header>
-
-    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="assets/images/image1.avif" class="d-block w-100" alt="...">
-          </div>
-          <div class="carousel-item">
-            <img src="assets/images/image2.avif" class="d-block w-100" alt="...">
-          </div>
-          <div class="carousel-item">
-            <img src="assets/images/image3.avif" class="d-block w-100" alt="...">
-          </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
-      </div>
-
-    <div class="content">
-        <div class="main"> </div>
-        <footer class="footer">
-            <p>Restful placeholder text</p>
-        </footer>
+      </ul>
     </div>
+  </nav>
+  <header class="hero">
+    <div class="hero-content">
+      <h1>Time to reflect...</h1>
+      <p>contemplation page</p>
+    </div>
+  </header>
+  <div class="carousel-wrapper">
+    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="assets/images/image1.avif" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="assets/images/image2.avif" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="assets/images/image3.avif" class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
 
-    <!-- Bootstrap JS component -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-        crossorigin="anonymous"></script>
+  <div class="content">
+    <div class="main"> </div>
+    <footer class="footer">
+      <p>Restful placeholder text</p>
+    </footer>
+  </div>
+
+  <!-- Bootstrap JS component -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>

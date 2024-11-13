@@ -57,3 +57,15 @@
     overflow: auto;
 
 }
+
+.carousel-wrapper {
+    display: grid;
+    place-items: center center;
+    height: 100vh;
+    position: relative;
+    width: 80%;
+    /* Adjust width as needed */
+    padding: 40px;
+    /* Adjust padding as needed */
+    box-sizing: border-box;
+}
