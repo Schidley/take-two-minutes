@@ -33,3 +33,22 @@ and passed CSS validation from https://jigsaw.w3.org/css-validator/ as below
 
 ![CSS validation](/assets/images/cssvalidation.png)
 
+## Learning Outcomes
+
+Front end design is responsive, mobile first (inherited from bootstrap) and has a consistent theme.
+The user experience was designed to be minimalist and relaxing
+Both HTML and CSS validated correctly.
+My website design responds to being displayed on different devices.
+The website has been deployed globally, via Github Pages
+A readme file was made to document the goals and learning outcomes.
+AI was consulted at a number of key points. As an example, the 'About' text was fleshed out by Copilot, and code snippets such as
+the method used for using a local favicon rather than an online example. AI was also consulted for some issues that arose, 
+including arriving at a solution for integration of bootstrap grid and flexbox placements on the same page.
+AI improved the UX experience of the website by allowing more time to be spent on achieving the desired look, using the time
+saved on AI driven development aspects.
+AI overall sped up the development process, I believe, although this does have to be weighed against the time
+spent coaching the AI into giving concise and helpful advice. 
+
+## Further scope
+
+Given more time, I would focus on replacing the remaining placeholder text with content, and aquire and curate more suitable images for the contemplation page.
