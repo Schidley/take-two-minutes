@@ -22,5 +22,14 @@ By creating a website dedicated to taking short breaks, we aim to promote a cult
 
 I have sourced code snippets from Bootstrap documentation (carousel), from AI suggestion, and from StackOverflow (Scrolling issues)
 Favicons are from Favicon.io
- 
- 
+
+## Validation
+
+The website passed vidation from https://validator.w3.org/ as below
+
+![HTML validation](/assets/images/htmlvalidation.png)
+
+and passed CSS validation from https://jigsaw.w3.org/css-validator/ as below
+
+![CSS validation](/assets/images/cssvalidation.png)
+
