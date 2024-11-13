@@ -21,5 +21,6 @@ By creating a website dedicated to taking short breaks, we aim to promote a cult
 (The above preamble was prototyped by ai, and edited to fit the specific needs of the project, cutting down significantly on development time)
 
 I have sourced code snippets from Bootstrap documentation (carousel), from AI suggestion, and from StackOverflow (Scrolling issues)
-
+Favicons are from Favicon.io
+ 
  
